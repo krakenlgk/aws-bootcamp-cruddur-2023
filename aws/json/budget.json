@@ -1,27 +1,3 @@
-# Week 0 — Billing and Architecture
-
-## Required Homework/Tasks
-
-### Install AWS CLI
-
-Installed the AWS CLI using the steps shared in the gitpod yml file.
-
-![Proof of Working AWS CLI](assets/aws-cli.png)
-
-### Create a billing alarm for the budget
-
-I have created a budget of $10
-
-![Image of the budget alarm I created](assets/budget-alarm.png)
-
-### Recreate Logical architecture diagram
-![Cruddur Logical Design](assets/logical-architecture-recreation-diagram.png)
-
-[Lucid_Charts_Share_link](https://lucid.app/lucidchart/a5691e9c-457f-4e0b-ab29-8e479eac3ca2/edit?viewport_loc=-592%2C-24%2C3328%2C1684%2C0_0&invitationId=inv_ae3b4dd0-fb59-4c57-a39c-9bacc67339dd)
-
-### Example of reference a file in code base.
-
-```json
 {
     "BudgetLimit": {
         "Amount": "10",
@@ -53,4 +29,3 @@ I have created a budget of $10
     },
     "TimeUnit": "MONTHLY"
   }
-```
