@@ -8,12 +8,9 @@ Installed the AWS CLI using the steps shared in the gitpod yml file.
 
 ![Proof of Working AWS CLI](assets/aws-cli.png)
 
-### User details
-User details accessing from AWS CLI.
-
-![My User details](assets/user.png)
-
 ### Create a billing alarm for the budget
+
+I have created a budget of $10
 
 ![Image of the budget alarm I created](assets/budget-alarm.png)
 
