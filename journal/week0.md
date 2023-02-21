@@ -6,19 +6,19 @@
 
 Installed the AWS CLI using the steps shared in the gitpod yml file.
 
-![Proof of Working AWS CLI](assets/aws-cli.png)
+![Proof of Working AWS CLI](aws-cli.png)
 
 ### User details
 User details accessing from AWS CLI.
 
-![My User details](assets/user.png)
+![My User details](user.png)
 
 ### Create a billing alarm for the budget
 
-![Image of the budget alarm I created](assets/budget-alarm.png)
+![Image of the budget alarm I created](budget-alarm.png)
 
 ### Recreate Logical architecture diagram
-![Cruddur Logical Design](assets/logical-architecture-recreation-diagram.png)
+![Cruddur Logical Design](logical-architecture-recreation-diagram.png)
 
 [Lucid_Charts_Share_link](https://lucid.app/lucidchart/a5691e9c-457f-4e0b-ab29-8e479eac3ca2/edit?viewport_loc=-592%2C-24%2C3328%2C1684%2C0_0&invitationId=inv_ae3b4dd0-fb59-4c57-a39c-9bacc67339dd)
 
