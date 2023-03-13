@@ -36,7 +36,7 @@ from time import strftime
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.DEBUG)
 console_handler = logging.StreamHandler()
-cw_handler = watchtower.CloudWatchLogHandler(Log_group='cruddur')
+cw_handler = watchtower.CloudWatchLogHandler(log_group='cruddur')
 LOGGER.addHandler(console_handler)
 LOGGER.addHandler(cw_handler)
 LOGGER.info("test log")
@@ -121,7 +121,7 @@ def data_create_message():
   return
 
 @app.route("/api/activities/home", methods=['GET'])
-def data_home():
+def data_home(Logger: LOGGER):
   data = HomeActivities.run()
   return data, 200
 
