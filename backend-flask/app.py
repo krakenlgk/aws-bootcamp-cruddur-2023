@@ -14,6 +14,8 @@ from services.messages import *
 from services.create_message import *
 from services.show_activity import *
 
+
+
 # Honeycomb -------
 from opentelemetry import trace
 from opentelemetry.instrumentation.flask import FlaskInstrumentor
@@ -38,6 +40,8 @@ trace.set_tracer_provider(provider)
 tracer = trace.get_tracer(__name__)
 
 app = Flask(__name__)
+
+
 
 # Honeycomb -------
 # Initialize automatic instrumentation with Flask
@@ -92,10 +96,6 @@ def data_create_message():
 
 @app.route("/api/activities/home", methods=['GET'])
 def data_home():
-  print ('AUTH HEADER------')
-  print (
-    request.headers.get('Authorization')
-  )
   data = HomeActivities.run()
   return data, 200
 
